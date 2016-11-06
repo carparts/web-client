@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, } from '@angular/core';
+import {SearchModule} from './car-parts/search'
+
 @Component({
   selector: 'my-app',
-  template: '<h1>First component</h1>'
+  template: `<car-search></car-search>`
 })
 export class FirstComponent { }
